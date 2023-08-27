@@ -1,0 +1,13 @@
+<app-header [order]="dataSource.order" (submit)="handleSubmit()"></app-header>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-3 p-2">
+      <app-category-list class="d-grid gap-2" [selected]="selectedCategory" [categories]="categories"
+        (selectCategory)="handleCategorySelect($event)">
+      </app-category-list>
+    </div>
+    <div class="col-9 p-2">
+      <app-product-item *ngFor="let p of products" [product]="p" (addToCart)="handleAdd($event)"></app-product-item>
+    </div>
+  </div>
+</div>
