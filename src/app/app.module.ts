@@ -9,6 +9,8 @@ import { CategoryListComponent } from './category-list/category-list.component';
 import { HeaderComponent } from './header/header.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { DataModelModule } from './data/data.module';
+import { OrderDetailsComponent } from './order-details/order-details.component';
+import { SummaryComponent } from './summary/summary.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { DataModelModule } from './data/data.module';
     ProductItemComponent,
     CategoryListComponent,
     HeaderComponent,
-    ProductListComponent
+    ProductListComponent,
+    OrderDetailsComponent,
+    SummaryComponent
   ],
   imports: [
     BrowserModule,

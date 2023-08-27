@@ -1,11 +1,25 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ProductItemComponent } from './product-item/product-item.component';
+import { ProductListComponent } from './product-list/product-list.component';
+import { OrderDetailsComponent } from './order-details/order-details.component';
+import { SummaryComponent } from './summary/summary.component';
 
 const routes: Routes = [
   {
-    path: 'product-item',
-    component: ProductItemComponent
+    path: 'products',
+    component: ProductListComponent
+  },
+  {
+    path: 'order',
+    component: OrderDetailsComponent
+  },
+  {
+    path: 'summary/:id',
+    component: SummaryComponent
+  },
+  {
+    path: '',
+    component: ProductListComponent
   },
 ];
 
