@@ -30,6 +30,8 @@
     "@angular/compiler-cli": "^16.2.0",
     "@types/jasmine": "~4.3.0",
     "bootstrap": "^5.1.0",
+    "connect-history-api-fallback": "^1.6.0",
+    "express": "^4.17.1",
     "jasmine-core": "~4.6.0",
     "json-serve": "^0.1.0",
     "json-server": "^0.16.3",
