@@ -1,0 +1,11 @@
+{
+  "name": "typescript-study",
+  "description": "typescript 讀書會測試內容",
+  "repository": "",
+  "license": "0BSD",
+  "devDependencies": {
+    "express": "4.17.1",
+    "json-server": "0.16.3",
+    "connect-history-api-fallback": "1.6.0"
+  }
+}
